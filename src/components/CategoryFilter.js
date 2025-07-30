@@ -11,6 +11,7 @@ function CategoryFilter({ categories, selectedCategory, onSelectCategory }) {
           onClick={() => onSelectCategory(category)}
         >
           {category}
+
         </button>
       ))}
     </div>
